@@ -12,30 +12,37 @@ import ServiceDtl from './components/Home/ServiceDtl/ServiceDtl';
 import Header from './components/Home/Header/Header';
 import Login from './components/Home/Login/Login';
 import Footer from './components/Home/Footer/Footer';
+import Register from './components/Home/Register/Register';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Private/PrivateRoute';
 
 
 function App() {
   return (
     <div className="App">
-
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/service/:serviceDtls">
-            <ServiceDtl></ServiceDtl>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <PrivateRoute exact path="/service/:serviceDtls">
+              <ServiceDtl></ServiceDtl>
+            </PrivateRoute>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <PrivateRoute path="/register">
+              <Register></Register>
+            </PrivateRoute>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

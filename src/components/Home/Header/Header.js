@@ -1,8 +1,12 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Container, Form, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
+/* import useFirebase from '../../Hooks/useFirebase'; */
 
 const Header = () => {
+
+    const { handleLogout, user } = useAuth();
     return (
         <div>
             <Navbar bg="light" expand="lg">
@@ -21,9 +25,12 @@ const Header = () => {
 
                         </Nav>
                         <Form className="d-flex">
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
-                            <Nav.Link as={Link} to="/home">Logout</Nav.Link>
-                            <Nav.Link className="me-5" as={Link} to="/home">User:</Nav.Link>
+                            <Nav.Link as={Link} to="/register">Register</Nav.Link>
+
+                            {user.email ? <Nav.Link onClick={handleLogout} as={Link} to="/home">Logout</Nav.Link>
+                                :
+                                <Nav.Link as={Link} to="/login">Login</Nav.Link>}
+                            <Nav.Link className="me-5" as={Link} to="/home">User: {user.email}</Nav.Link>
                         </Form>
                     </Navbar.Collapse>
                 </Container>
