@@ -25,20 +25,20 @@
         "name": "Rehabilitation Center",
         "price": "105",
         "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
-        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_1.jpg"
     },
     {
         "_id": "5",
         "name": "Rehabilitation Center",
         "price": "105",
         "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
-        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_2.jpg"
     },
     {
         "_id": "6",
         "name": "Rehabilitation Center",
         "price": "105",
         "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
-        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_3.jpg"
     }
 ]

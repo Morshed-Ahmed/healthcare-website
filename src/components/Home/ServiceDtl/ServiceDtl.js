@@ -12,7 +12,7 @@ const ServiceDtl = () => {
             .then(data => setData(data))
     }, [])
 
-    const newItem = data.filter(td => td._id === serviceDtls);
+    const newItem = data.filter(td => td._id == serviceDtls);
 
     /* console.log(serviceDtls) */
     return (

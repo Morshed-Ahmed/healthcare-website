@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Form, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
+import { HashLink } from 'react-router-hash-link';
 /* import useFirebase from '../../Hooks/useFirebase'; */
 
 const Header = () => {
@@ -19,13 +20,13 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                             <Nav.Link href="#action2">Link</Nav.Link>
 
 
                         </Nav>
                         <Form className="d-flex">
-                            <Nav.Link as={Link} to="/register">Register</Nav.Link>
+                            <Nav.Link as={HashLink} to="/register">Register</Nav.Link>
 
                             {user.email ? <Nav.Link onClick={handleLogout} as={Link} to="/home">Logout</Nav.Link>
                                 :

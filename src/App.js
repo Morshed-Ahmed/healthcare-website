@@ -15,6 +15,7 @@ import Footer from './components/Home/Footer/Footer';
 import Register from './components/Home/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Private/PrivateRoute';
+import NotFound from './components/Home/NotFound/NotFound';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <PrivateRoute exact path="/service/:serviceDtls">
+            <PrivateRoute path="/service/:serviceDtls">
               <ServiceDtl></ServiceDtl>
             </PrivateRoute>
             <Route path="/login">
@@ -39,6 +40,9 @@ function App() {
             <PrivateRoute path="/register">
               <Register></Register>
             </PrivateRoute>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </Router>

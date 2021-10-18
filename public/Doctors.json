@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "1",
+        "name": "Heart Sergery",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/team_3.jpg"
+    },
+    {
+        "_id": "2",
+        "name": "Nephrologist Care",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/team_4.jpg"
+    },
+    {
+        "_id": "3",
+        "name": "Rehabilitation Center",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/team_1.jpg"
+    },
+    {
+        "_id": "4",
+        "name": "Rehabilitation Center",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/team_2.jpg"
+    }
+]

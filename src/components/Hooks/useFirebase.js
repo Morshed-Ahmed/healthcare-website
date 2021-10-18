@@ -8,38 +8,44 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
     const [user, setUser] = useState({})
-    const [error, setError] = useState('')
+    /* const [error, setError] = useState('') */
+    const [isLoading, setIsLoading] = useState(true)
 
     const logInWithGoogle = () => {
+        setIsLoading(true)
         signInWithPopup(auth, googleProvider)
-            .then((result) => setUser(result.user))
-            .catch((error) => setError(error.message))
-    }
+            .then((result) => {
+                setUser(result.user);
+            })
+            .finally(() => setIsLoading(false));
+
+    };
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user)
             } else {
-                setError("")
+                setUser({})
             }
+            setIsLoading(false)
         });
     }, [])
 
 
     const handleLogout = () => {
+        setIsLoading(true)
         signOut(auth)
             .then(() => {
                 setUser({})
-            }).catch((error) => {
-                setError("")
-            });
+            })
+            .finally(() => setIsLoading(false));
     }
 
 
 
     return {
-        logInWithGoogle, user, error, handleLogout
+        logInWithGoogle, user, isLoading, handleLogout
     }
 }
 
