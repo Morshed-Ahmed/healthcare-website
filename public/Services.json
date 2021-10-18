@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "1",
+        "name": "Heart Sergery",
+        "price": "132",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_1.jpg"
+    },
+    {
+        "_id": "2",
+        "name": "Nephrologist Care",
+        "price": "221",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_2.jpg"
+    },
+    {
+        "_id": "3",
+        "name": "Rehabilitation Center",
+        "price": "105",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+    },
+    {
+        "_id": "4",
+        "name": "Rehabilitation Center",
+        "price": "105",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+    },
+    {
+        "_id": "5",
+        "name": "Rehabilitation Center",
+        "price": "105",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+    },
+    {
+        "_id": "6",
+        "name": "Rehabilitation Center",
+        "price": "105",
+        "description": "lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.",
+        "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
+    }
+]

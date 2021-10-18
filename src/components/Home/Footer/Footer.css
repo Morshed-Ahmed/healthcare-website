@@ -1,0 +1,19 @@
+.footer-style{
+    background-color: #111111;
+    
+}
+
+.footer-logo{
+
+    border-right: 1px solid wheat;
+}
+
+.footer-list{
+    list-style: none;
+    
+}
+
+.footer-list li{
+    padding-top:10px ;
+}
+
