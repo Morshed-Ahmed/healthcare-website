@@ -15,9 +15,8 @@ const Services = () => {
     return (
         <div className="my-5 container">
             <h1>TOP SERVICES</h1>
-            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-                <br />
-                nec sagittis sem nibh id elit. Duis sed odio sit sagittis sem nibh id elit.</p>
+            <img className="mb-3" src={'http://webstrot.com/html/deepmind/deepmind/images/Icon_team.png'} alt="" />
+            <p>Use Best Doctors when you or an eligible dependent:</p>
 
             <div className="row d-flex justify-content-start">
 
@@ -27,11 +26,7 @@ const Services = () => {
                         service={service}
                     ></Service>)
                 }
-                {/*  {
-                    services.map(service => <Service
-                        service={service}
-                    ></Service>
-              } */}
+
             </div>
 
 

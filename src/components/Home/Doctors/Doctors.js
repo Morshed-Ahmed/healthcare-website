@@ -13,8 +13,8 @@ const Doctors = () => {
         <div className="container">
             <div className="py-4">
                 <h3>MEET OUR SPECIALISTS</h3>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                    nisi elit consequat ipsum, <br /> nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                <img className="mb-2" src={'http://webstrot.com/html/deepmind/deepmind/images/Icon_team.png'} alt="" />
+                <p>Find Doctors using the Most Important Criteria: Yours</p>
             </div>
 
             <div className="row py-4">

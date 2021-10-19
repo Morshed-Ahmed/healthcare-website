@@ -1,3 +1,9 @@
 .provider-style{
     background-color: #EFEFEF;
 }
+
+.cd-style{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}

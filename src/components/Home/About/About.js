@@ -11,12 +11,12 @@ const About = () => {
                 <div className="col-md-12 col-lg-6">
                     <h2 className="my-5">ABOUT MEDICAL</h2>
                     <h5>SPECIALTY MEDICINE WITH COMPASSION AND CAR PROIN GRAVIDA NIBH VEL VELIT</h5>
-                    <p>Proin Gravida Nibh Vel Velit Auctor Aliquet. Aenean Sollicitudin, Aks Lorem Quis Bibendum Auctor, Nisi El Ipsum, Nec Sagittis Sem Nibh Id Elit. Dui Duis Sed Odiit Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Duis Sed Odio Sit Amet Nibh Vulputate..</p>
+                    <p>The Ministry of Public Health has launched a new website registration process that will allows citizens and residents to register their desire to receive the COVID-19 vaccine.</p>
 
                     <h2 className="my-5">OUR MISSION</h2>
-                    <p>Proin Gravida Nibh Vel Velit Auctor Aliquet. Aenean Sollicitudin, Aks Lorem Quis Bibendum Auctoruis Sed Odio Sit Amet Nibh Vulputate..</p>
+                    <p> The new online registration form allows people who meet the requirements for priority groups to request an appointment to receive the vaccine.</p>
                     <br />
-                    <p>Aenean Sollicitudin, Lorem Quis Bibendum Auctor, Nisi Elit Consequat Ipsum Ipsum, Nec Sagittis Sem Nibh Id Elit. Dui Duis Sed Odi Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Dui Duis Sed Odio Sit.</p>
+                    <p>MOPH in collaboration with HMC and PHCC has created webpage to provide residents of Qatar with a trusted source of information related to the Novel Coronavirus 2019.</p>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ const Banner = () => {
         <div className=" banner-style d-flex d-flex justify-content-start  align-items-center">
             <div className="container text-start ">
                 <h2>TOTAL HEALTH CARE SOLUTION</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae porro <br /> molestias dolore dicta quod nulla amet obcaecati alias consectetur tempore?</p>
+                <p>Get an Expert Medical Opinion from one of our world-renowned specialists so <br /> you can have the answers and confidence to make informed decisions about your health.</p>
 
                 <div >
                     <button className="banner-btn me-4">READ MORE</button>

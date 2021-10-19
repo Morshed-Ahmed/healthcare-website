@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home/Home';
@@ -6,7 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 import ServiceDtl from './components/Home/ServiceDtl/ServiceDtl';
 import Header from './components/Home/Header/Header';
@@ -16,6 +15,8 @@ import Register from './components/Home/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Private/PrivateRoute';
 import NotFound from './components/Home/NotFound/NotFound';
+import News from './components/Home/News/News';
+import Blog from './components/Home/Blog/Blog';
 
 
 function App() {
@@ -37,9 +38,16 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute path="/register">
+            <Route path="/register">
               <Register></Register>
-            </PrivateRoute>
+            </Route>
+            <Route path="/news">
+              <News></News>
+            </Route>
+            <Route path="/blog">
+              <Blog></Blog>
+            </Route>
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>

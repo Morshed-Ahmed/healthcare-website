@@ -1,0 +1,20 @@
+.blog-style{
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.blog-search{
+    outline: none;
+    border: 1px solid lightblue;
+    padding: 8px;
+    border-radius: 8px;
+}
+.blog-list{
+    list-style: circle;
+    
+}
+
+.blog-list li{
+    padding-bottom: 10px;
+}

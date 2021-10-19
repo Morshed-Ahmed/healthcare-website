@@ -1,0 +1,23 @@
+.enquiry-style{
+    background-color:  #2EC8A6;
+    
+}
+
+.enquiry-btn{
+    background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 25px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.enquiry-btn {
+    transition-duration: 0.4s;
+  }
+  
+  .enquiry-btn:hover {
+    background-color: #2EC8A6;
+    border: 1px solid white;
+    color: white;
+  }

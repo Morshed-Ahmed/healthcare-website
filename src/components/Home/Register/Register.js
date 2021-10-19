@@ -1,9 +1,10 @@
 import React from 'react';
+import Login from '../Login/Login';
 
 const Register = () => {
     return (
         <div className="my-5">
-            <h4>this is register page</h4>
+            <Login></Login>
         </div>
     );
 };

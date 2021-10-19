@@ -13,8 +13,6 @@ const PrivateRoute = ({ children, ...rest }) => {
         return <Spinner animation="border" variant="info" />
     }
 
-    /* let history = useHistory();
-    let location = useLocation(); */
     return (
         <Route {...rest}
             render={({ location }) =>

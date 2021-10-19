@@ -13,8 +13,6 @@ const ServiceDtl = () => {
     }, [])
 
     const newItem = data.filter(td => td._id == serviceDtls);
-
-    /* console.log(serviceDtls) */
     return (
 
         <div className=" mx-auto mt-5">
