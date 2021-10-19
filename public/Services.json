@@ -2,42 +2,36 @@
     {
         "_id": "1",
         "name": "Heart Sergery",
-        "price": "132",
         "description": "Heart surgery can correct problems with the heart if other treatments haven't worked or can't be used.",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_1.jpg"
     },
     {
         "_id": "2",
         "name": "Nephrologist Care",
-        "price": "221",
         "description": "Nephrologists are medical professionals who diagnose, treat, and manage acute and chronic kidney problems and diseases.",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_2.jpg"
     },
     {
         "_id": "3",
         "name": "Neurology Surgery",
-        "price": "105",
         "description": "Neurosurgery is a surgical specialty that involves the conservative and surgical management of a wide variety of disorders.",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/ser_ser_3.jpg"
     },
     {
         "_id": "4",
         "name": "Anesthesiology",
-        "price": "105",
         "description": "Anesthesiology is the medical specialty concerned with the total perioperative care of patients before, during and after surgery",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_1.jpg"
     },
     {
         "_id": "5",
         "name": "Dermatology",
-        "price": "105",
         "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_2.jpg"
     },
     {
         "_id": "6",
         "name": "Neurology",
-        "price": "105",
         "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment ",
         "imageURL": "http://webstrot.com/html/deepmind/deepmind/images/blog_img_3.jpg"
     }
